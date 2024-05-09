@@ -5,6 +5,7 @@
 }
 img {
   display: block;
+  max-width: 100%;
 }
 .container {
   display: block;
@@ -18,7 +19,7 @@ img {
   color: #434455;
 
   background: #ffffff;
-  margin: 0;
+  margin: 0 auto;
 }
 .header .container {
   display: flex;
@@ -131,12 +132,24 @@ img {
 ul {
   list-style-type: none;
 }
+.section-two {
+  padding: 120px 0;
+}
+
+.ul-section-two {
+  display: flex;
+  gap: 24px;
+}
+.li-section-two {
+  width: calc((100% - 72px) / 4);
+}
 .section-two-heading {
   font-size: 20px;
   line-height: 1.2;
   font-weight: 500;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .section-two-paragraph {
   line-height: 1.5;
@@ -145,6 +158,7 @@ ul {
 .section-three {
   background-color: #f4f4fd;
   text-align: center;
+  padding: 120px 0;
 }
 .section-three-heading {
   font-size: 36px;
@@ -153,9 +167,16 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+.ul-section-three {
+  display: flex;
+  gap: 24px;
 }
 .section-three-list {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .section-three-list-heading {
   font-size: 20px;
@@ -163,16 +184,22 @@ ul {
   letter-spacing: 0.02em;
   font-weight: 500;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .section-three-list-paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
-
+.section-three-h-p {
+  padding: 32px 16px;
+}
 .section-four {
   background-color: #e7e9fc;
+  padding: 120px 0 120px 0;
 }
 .section-four-heading {
   font-size: 36px;
