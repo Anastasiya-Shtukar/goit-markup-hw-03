@@ -1,9 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.container {
+  display: block;
+  max-width: 1440px;
+}
+
 .general {
   font-family: "Roboto", sans-serif;
 
   color: #434455;
 
   background: #ffffff;
+  margin: 0;
+}
+.container-header {
+  display: flex;
+}
+.nav,
+.address {
+  display: flex;
+}
+.nav a,
+ul {
+  display: flex;
+}
+.container-header a,
+ul {
+  display: flex;
 }
 .logo {
   font-family: "Raleway", sans-serif;
