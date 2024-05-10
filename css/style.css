@@ -11,6 +11,7 @@ img {
   display: block;
   width: 1158px;
   padding: 0 15px;
+  margin: 0 auto;
 }
 
 .general {
@@ -24,7 +25,7 @@ img {
 .header .container {
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
+  margin: 0;
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
