@@ -136,7 +136,9 @@ ul {
 .section-two {
   padding: 120px 0;
 }
-
+.section-two h2 {
+  visibility: hidden;
+}
 .ul-section-two {
   display: flex;
   gap: 24px;
