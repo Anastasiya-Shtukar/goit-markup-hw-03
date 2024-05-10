@@ -108,6 +108,19 @@ img {
   text-align: center;
   padding: 188px 0;
 }
+
+.section-two .container {
+  margin-right: 0;
+}
+.section-three .container {
+  margin-right: 0;
+}
+.section-four .container {
+  margin-right: 0;
+}
+.footer .container {
+  margin-right: 0;
+}
 .section-one .button {
   font-weight: 500;
   font-size: 16px;
