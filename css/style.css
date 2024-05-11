@@ -33,7 +33,7 @@ p {
 .header .container {
   display: flex;
   justify-content: space-between;
-  margin: 0;
+  margin: 0, auto;
   align-items: center;
 }
 .header {
@@ -151,8 +151,16 @@ ul {
 .section-two {
   padding: 120px 0;
 }
-.section-two-h-two {
-  visibility: hidden;
+.visually-hidden:not(:focus):not(:active) {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
 }
 .ul-section-two {
   display: flex;
